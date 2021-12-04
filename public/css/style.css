@@ -76,7 +76,7 @@ body {
 
 .corpo {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   width: 935px;
   margin: 0 auto;
   margin-top: 88px;
@@ -88,7 +88,9 @@ body {
 }
 
 .sidebar {
-  width: 293px;
+  
+  width: 100%;
+  max-width: 293px;
 }
 
 .stories {
@@ -212,10 +214,16 @@ body {
   margin-bottom: 18px;
 }
 
+
 .sidebar {
   padding-top: 24px;
-  position: sticky;
+  position: fixed;
   top: 88px;
+}
+
+.asside {
+  width: 293px;
+  padding-left: 30px;
 }
 
 .sidebar > .usuario {
@@ -320,7 +328,7 @@ body {
   }
 
   .corpo {
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
   }
 }
