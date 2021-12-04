@@ -1,11 +1,11 @@
 import Usuario from "./sidebar/Usuario"
-import Sugestao from "./sidebar/Sugestao"
+import Sugestoes from "./sidebar/Sugestoes"
 
 export default function Sidebar() {
     return (
         <div class="sidebar">
             <Usuario />    
-            <Sugestao />
+            <Sugestoes />
 
             <div class="links">
                 Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma
