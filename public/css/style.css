@@ -420,7 +420,8 @@ body {
 }
 
 @media (max-width: 935px) {
-  .sidebar {
+  .sidebar,
+  .asside {
     display: none;
   }
 
@@ -429,7 +430,7 @@ body {
   }
 
   .corpo {
-    justify-content: flex-start;
+    justify-content: center;
     width: 100%;
   }
 }
@@ -444,6 +445,10 @@ body {
     border-left: none;
     border-right: none;
     width: 100%;
+  }
+
+  .asside {
+    display: none;
   }
 
   .post:last-child {
